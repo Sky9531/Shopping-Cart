@@ -1,0 +1,7 @@
+.blue-button {
+    background-color: rgb(66, 159, 199);
+    color: rgb(1, 1, 1);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

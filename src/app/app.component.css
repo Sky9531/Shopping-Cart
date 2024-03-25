@@ -1,0 +1,17 @@
+.product-card {
+    border: 1px solid #807b7b;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; 
+    display: inline-block; 
+  }
+  .heading-center {
+    text-align: center;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  

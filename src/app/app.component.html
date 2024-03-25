@@ -1,0 +1,11 @@
+<h1>Welcome!</h1>
+<h2 class="heading-center">Products</h2>
+<div class="product-list"></div>
+<div class="product-card" *ngFor="let product of products">
+  <app-app-child [product]="product" (addToCartClicked)="handleAddToCart($event)"></app-app-child>
+</div>
+
+<div *ngIf="recentlyAddedProduct">
+  <p>{{ recentlyAddedProduct }}  successfully added to the cart</p>
+  <p>Number of Products in Cart: {{ cartCount }}</p>
+</div>
